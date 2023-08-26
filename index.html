@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.css">
+   <link rel="stylesheet" href="style.css">
+   <title>E-commerce</title>
+</head>
+
+<body>
+   <header>
+      <div class="h1-logo">
+
+         <img class="img" width="34" height="34"
+            src="https://img.icons8.com/external-xnimrodx-lineal-gradient-xnimrodx/64/external-shop-e-commerce-and-business-xnimrodx-lineal-gradient-xnimrodx.png"
+            alt="external-shop-e-commerce-and-business-xnimrodx-lineal-gradient-xnimrodx" />
+         <h2>Drey_Dev Tools SHOP</h1>
+      </div>
+      <div>
+         <h3>Simple e-comerce website</h3>
+      </div>
+   </header>
+   <section class="herosection">
+         <marquee behavior="" direction="right">code by DR_Drey......<img class="footer-img" width="20" height="20"
+               src="https://img.icons8.com/material-outlined/24/source-code.png" alt="source-code" /></marquee>
+      <div class="cart-logo">
+         <img width="50" height="50" src="https://img.icons8.com/ios/50/shopping-cart--v1.png"
+            alt="shopping-cart--v1" />
+      </div>
+      <div class="input-box">
+         <input type="text" placeholder="Enter item name" id="item">
+      </div>
+      <div class="btn-box">
+         <button onclick="addToCart()">Add Product</button>
+         <button onclick="emptyCart()">Empty Cart</button>
+         <button onclick="popCart()">Remove last item</button>
+         <button onclick="shiftCart()">Remove First Item </button>
+         <button onclick="spliceCart()">Delete one Item</button>
+         <button onclick="editOneItem()">Edit one Item</button>
+      </div>
+      <div>
+         <div id="display"></div>
+      </div>
+
+   </section>
+   <script src="script.js"></script>
+</body>
+
+</html>
